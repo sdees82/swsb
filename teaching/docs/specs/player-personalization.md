@@ -1,6 +1,6 @@
 # Personalize the ring's player shoulder
 
-Contract version: editorial-2026-10-17-r4. The reader maintains this Markdown. The agent creates all source, configuration and tests. Paths are expected outputs and inspection points.
+Contract version: editorial-2026-10-17-r5. The reader maintains this Markdown. The agent creates all source, configuration and tests. Paths are expected outputs and inspection points.
 
 ## Objective and outcome
 Let someone inspect their Player name, Number and Position on the ring's right shoulder. Preserve 07 as inscription text through input, state and rendering.
@@ -44,4 +44,4 @@ The agent creates lib/customization.ts (TEXT_FIELDS, sanitizeText), lib/store.ts
 Normalization/store tests cover AC-03/04/05/06/07/10 and BR-01/02/03. Controls tests cover labels, counters, persistence across areas, camera intent and Reset. Direct scene inspection closes visible AC-01/02/03/05/06 and BR-04. Keyboard and assistive-technology results are recorded per environment. Store or mocked-canvas assertions never close rendered-fit criteria.
 
 ## Decisions and references
-No open product decision in this scope. If actual model/font evidence conflicts with it, stop affected work and return the conflict. See first-preview.md, ring-logo.md, material-customization.md, ../../tasks/README.md and ../verification/player-personalization.md.
+No open product decision in this scope. If actual model/font evidence conflicts with it, stop affected work and return the conflict. Paths are relative to the working-project root: docs/specs/first-preview.md, docs/specs/ring-logo.md, docs/specs/material-customization.md and ../swsb/teaching/tasks/README.md. Chapter 7 adds the working recipe at docs/verification/player-personalization.md.

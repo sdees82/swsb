@@ -3,7 +3,7 @@
 The reader authors or approves this Markdown contract, directs the agent and reviews the returned evidence. The agent creates or edits the application implementation, configuration and tests. Technical paths below name expected agent outputs or inspection points, not files the reader must hand-code. Use the milestone map to distinguish existing files from outputs still to be produced.
 
 
-Contract version: editorial-2026-10-17-r4. This is the Chapter 3 practice rep before the full feature loop.
+Contract version: editorial-2026-10-17-r5. This is the Chapter 3 practice rep before the full feature loop.
 
 ## Outcome
 Open /builder and inspect the ring before adding player text, image uploads or material controls in the reader's implementation.

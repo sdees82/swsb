@@ -1,4 +1,4 @@
-# Clean-room validation: base run at r1, editorial follow-ups through r4
+# Clean-room validation: base run at r1, editorial follow-ups through r5
 
 An agent constructed a new application from the companion's Markdown contracts and assets in a separate scratch project. No application implementation was copied from the mature Ring Builder project. The companion itself still contains only Markdown and assets. This is one local validation, not a claim about every supported computer or harness.
 
@@ -31,3 +31,7 @@ The original geometric shield at fixtures/logo/logo-shield.png replaced the earl
 ## Editorial contract follow-up — October 17, 2026 (r4)
 
 The r4 changes clarify explicit-path procedure use, pre-implementation spec review, working-project rule activation, the required local Player gate and direct versus deterministic logo evidence. The plan-review form is labeled as expanded, and command timing is consistent. These are Markdown corrections; the earlier application implementation and its runtime checks were not rerun for r4. All 30 assets remain byte-identical to r3. The unfamiliar-reader trial, physical proof, physical-device and screen-reader checks remain open.
+
+## Copy-path and milestone follow-up — October 17, 2026 (r5)
+
+The r5 Markdown corrections allow read-only file inspection in the briefing authority row, make copied specification and verification references explicit from the working-project root, and keep the sample progress handoff at Loop 2. The earlier application runtime checks were not rerun for these documentation changes. All 30 assets remain byte-identical to r4. Independent reader, physical proof, physical-device and screen-reader work remains open.

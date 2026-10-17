@@ -6,7 +6,7 @@ Date: [date]
 
 | Stage | Reads | Writes | Commands | External actions | Stop condition | Approval owner |
 | --- | --- | --- | --- | --- | --- | --- |
-| Read-only briefing | project/companion Markdown | none | none in Chapter 2 | none | missing inputs | reader |
+| Read-only briefing | project/companion Markdown | none | read-only file inspection only | none | missing inputs | reader |
 | Practice preview | matching assets/setup | working project | approved install and scaffold checks | package downloads only | changed stack/asset | reader |
 | Feature loop | active spec/plan/code | bounded feature paths and tests | established local checks | none | policy/scope conflict | reader |
 | Logo example | logo spec, local fixtures, scene | Top upload, topLogo, logo scene/tests | focused tests and verify | none | proposes remote image service or another file policy | reader |

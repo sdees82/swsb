@@ -1,6 +1,6 @@
 # Place a logo on the ring
 
-Contract version: editorial-2026-10-17-r4. The reader maintains Markdown and accepts results; the agent creates implementation and tests.
+Contract version: editorial-2026-10-17-r5. The reader maintains Markdown and accepts results; the agent creates implementation and tests.
 
 ## Outcome and scope
 In Top, choose Logo, select a local file and inspect it on the generated center face. This contract covers topLogo only. No Team image state, Team upload, free dragging, cloud upload or asset authoring is included. Initial topLogo is null and emblem mode is none. Selecting Logo changes the mode to logo. An accepted upload sets topLogo and keeps that mode.

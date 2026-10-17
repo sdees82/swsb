@@ -1,6 +1,6 @@
 # Verify player personalization
 
-Recipe version: editorial-2026-10-17-r4, prepared 2026-10-17. Authority: Chapter 4's player-personalization spec. This is a reusable procedure; record each run separately using the completion-report template. It does not report a completed feature in the reader's project.
+Recipe version: editorial-2026-10-17-r5, prepared 2026-10-17. Authority: Chapter 4's player-personalization spec. This is a reusable procedure; record each run separately using the completion-report template. It does not report a completed feature in the reader's project.
 
 ## Setup
 
@@ -19,7 +19,7 @@ Ask the agent to start the app using its verified command. The verification agen
 
 ## Related logo and material checks
 
-Choose Top, select Logo and use `fixtures/logo/logo-shield.png`. Inspect the face. Then choose `notes.md` and `not-an-image.png` in separate attempts. Confirm distinct unsupported-file and decode messages, with the accepted image retained. Choose a valid file again and confirm recovery. Remove logo and check that the Logo emblem selection remains. Race and resize checks need their own evidence (LG-01–05).
+Paths here are relative to the working-project root. Choose Top, select Logo and use `../swsb/fixtures/logo/logo-shield.png`. Inspect the face. Then choose `../swsb/fixtures/logo/notes.md` and `../swsb/fixtures/logo/not-an-image.png` in separate attempts. Confirm distinct unsupported-file and decode messages, with the accepted image retained. Choose a valid file again and confirm recovery. Remove logo and check that the Logo emblem selection remains. Race and resize checks need their own evidence (LG-01–05).
 
 Select Rose gold Ring metal, White gold Lettering metal, Ruby Top stones (pavé and halo), and Emerald Side stones. Inspect each selected control and the matching preview region. These are independent settings; this check does not create a new feature contract.
 
@@ -27,7 +27,7 @@ Select Rose gold Ring metal, White gold Lettering metal, Ruby Top stones (pavé 
 
 For every criterion, record passed, failed or not run and link its evidence. Keep normalization, store, control and rendered-scene findings separate. Record unavailable browser automation, manual accessibility work, model failures and remaining decisions. Do not relax the spec to make a failed check pass.
 
-Use only the core Player, Top and Colors areas. Record any missing direct observation as not run. Exactly 5,242,880 bytes is 5 MiB; the size boundary and stale-read/resize cases are defined in ring-logo.md and teaching/tasks/04-logo.md.
+Use only the core Player, Top and Colors areas. Record any missing direct observation as not run. Exactly 5,242,880 bytes is 5 MiB; the size boundary and stale-read/resize cases are defined in docs/specs/ring-logo.md and ../swsb/teaching/tasks/04-logo.md.
 
 ## AC-11 local boundary
 
