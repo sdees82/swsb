@@ -1,4 +1,7 @@
-# Appendix C: Plan Review Checklist
+# Expanded Plan Review Checklist
+
+Builds on printed Appendix C. Use only the sections the task needs.
+
 Alignment
 The plan satisfies the approved specification.
 The approach is grounded in repository evidence.

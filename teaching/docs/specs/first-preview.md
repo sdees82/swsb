@@ -3,7 +3,7 @@
 The reader authors or approves this Markdown contract, directs the agent and reviews the returned evidence. The agent creates or edits the application implementation, configuration and tests. Technical paths below name expected agent outputs or inspection points, not files the reader must hand-code. Use the milestone map to distinguish existing files from outputs still to be produced.
 
 
-Contract version: editorial-2026-10-17-r3. This is the Chapter 3 practice rep before the full feature loop.
+Contract version: editorial-2026-10-17-r4. This is the Chapter 3 practice rep before the full feature loop.
 
 ## Outcome
 Open /builder and inspect the ring before adding player text, image uploads or material controls in the reader's implementation.
@@ -19,7 +19,7 @@ Next.js, TypeScript and React Three Fiber; public/models/championship-ring.glb; 
 - PV-05: Model structure, required decoders and the distinction between authored metal and runtime additions are recorded in project guidance.
 
 ## Implementation references
-lib/rings/classic.ts; components/canvas/AuthoredModel.tsx; RingCanvas.tsx; Lighting.tsx; CameraRig.tsx; public/draco; lib/assets/validateRing.ts. The mature Ring.tsx includes later customization; it is a worked reference, not a requirement to build every feature in this milestone.
+lib/rings/classic.ts; components/canvas/AuthoredModel.tsx; RingCanvas.tsx; Lighting.tsx; CameraRig.tsx; public/draco. The mature Ring.tsx includes later customization; it is a worked reference, not a requirement to build every feature in this milestone.
 
 ## Verification
 The agent inspects and records the asset structure; no validate:assets script is assumed. Open /builder and inspect the model and camera, then exercise missing-model and fallback paths in an isolated test context. Record browser evidence separately from decoder results.

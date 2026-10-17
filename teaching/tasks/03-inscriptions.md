@@ -22,7 +22,7 @@ Ring.tsx/Shoulders, SurfaceText.tsx, ringSurface.ts and definition mappings; nec
 
 ## Checks to run
 
-npm run verify; direct /builder interactions for AC-01/02/03/05/06 and BR-04. Use trace-player-number against the implementation now that the path exists.
+npm run verify; direct /builder interactions for AC-01/02/03/05/06 and BR-04. Read ../swsb/teaching/skills/trace-player-number/SKILL.md and follow it against the implementation now that the path exists.
 
 ## What to inspect yourself
 
@@ -38,4 +38,6 @@ docs/evidence/player/03-inscriptions.md with entered values, view, browser, view
 
 ## State required for the next step
 
-Player AC-01–12 and BR-01–06 accepted to the extent actually checked. Install scoped guidance only now, using its single source and discovery check. A required failed Player behavior blocks the next loop.
+Player AC-01–12 and BR-01–06 are accepted for the required local scope. A failed or missing required observation blocks Loop 4. Desktop and narrow-viewport keyboard, focus and label checks are required; screen-reader and physical-device claims remain not run until tested.
+
+Now the reader copies and reviews the Markdown for the chosen harness. Claude Code: ../swsb/teaching/rules/claude/customization.md to .claude/rules/customization.md. Codex: ../swsb/teaching/rules/codex/AGENTS.md to lib/AGENTS.md as the working source, then derive components/AGENTS.md from it. Record source and companion revision; keep the companion unchanged. In fresh sessions, check an affected customization path for the scoped rule and 07/string contract, then an unrelated app path where it should not apply. Save actual paths, results and discovery gaps in docs/evidence/player/scoped-guidance.md. Resolve a failed discovery check before relying on the rule.

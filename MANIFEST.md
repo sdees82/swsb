@@ -1,21 +1,21 @@
 # File manifest
 
-Revision: editorial-2026-10-17-r3. Every regular file except this manifest, whose own hash would be circular. Markdown and assets only; no app source, executable, package manifest, lockfile, decoder implementation or private Blender master.
+Revision: editorial-2026-10-17-r4. Every regular file except this manifest, whose own hash would be circular. Markdown and assets only; no app source, executable, package manifest, lockfile, decoder implementation or private Blender master.
 
 | Path | Bytes | SHA-256 |
 | --- | ---: | --- |
 | BEFORE-YOU-BEGIN.md | 4716 | 5d3c345fc21c81e67d1a778089106c3971e7d195531cdf039eafcaadc03e6886 |
 | CHAPTER-MAP.md | 2597 | d233d867358f4dbc8ce5b24a8fb71ce569ae7a863d5778433501c5ebfd8193bf |
-| CLEAN-ROOM-VALIDATION.md | 4673 | b7c1b1e9c565a29c6419f8176b0587a782a9434e31973ad26c9d01cc4e9bd2ea |
+| CLEAN-ROOM-VALIDATION.md | 5290 | d959ea3bc01110fbd2de48a163d1c151cc345ccf61993d86af2d77a22a03de2b |
 | EDITORIAL-STYLE.md | 1236 | 6762ac90743205b165fa61b148aae67532aa2e3c6b4b1a0dfc5e36b5b7e150be |
-| MILESTONES.md | 2601 | 51b10305604665135787486c8fe5f431e83d1721cf2141117d4b9646d29d6013 |
+| MILESTONES.md | 2601 | b6ec8952adba8a4b0bc743968547a6d1ba4f4b1ccce3e1dad9fbde6a6380efe3 |
 | MODEL-INSPECTION.md | 4503 | e732ff5bd2ff9ed39c447701b12ce1766b86240d3ff34f70ef2801bef217bb30 |
 | README.md | 4028 | 190a30db098848e44308fd7d7244cf8b859d0bdd490f2c79fbfe5b1bed16d4ec |
 | RELEASE-CHECKLIST.md | 2084 | 4ebce66536df3d20935604b416e0bb5b9b0a08c38a152bed94e04df0d0adf658 |
 | SETUP.md | 8233 | 8da431c292f68aa2434f99ae5b2a117ecb48e089f570c2750a845550ffdd6e68 |
 | SOURCES.md | 10883 | 48884e7f5f3558e2708a827bdad5a7b7ee324e9067c2a96f5469ba9ab4f182c6 |
 | THIRD-PARTY-NOTICES.md | 1461 | fabaa11dcac10da32ab84b05dc626bc2cb73eeff95ee4b1e3207dc3ad2a6d160 |
-| VERSION.md | 432 | ad29c0ff402d293d12cde28786fbbec9554ce0495991f557de6b17f2b141ccd8 |
+| VERSION.md | 446 | 8987f242fea55408cad93bacf681d7607e2223e9b13f083426b2edb97741d3f9 |
 | fixtures/logo/README.md | 911 | 4f907493e885ae710e4723ab7cda58d36aee2b99fad87db957d6d87e20ca2ab8 |
 | fixtures/logo/logo-shield.png | 19869 | d1d8db1c3f53585c96bad5d6faa87b7355c56902e62234951a4e6700640e74f5 |
 | fixtures/logo/not-an-image.png | 42 | 80bbb5977dc3a7d73e8d91e794945c8aa32184c28f6dce8940304ce564702ce2 |
@@ -29,7 +29,7 @@ Revision: editorial-2026-10-17-r3. Every regular file except this manifest, whos
 | optional/workflow-extensions/voice-integration.md | 803 | cd849325bd71442f7deec9c7a29d0248b5e50757c9c2dbe8ee08d456ed786356 |
 | provenance/README.md | 3728 | e7cd0e9f026eed674d4e37d827b8b3ce010435a69618ef7b96bf394ca1d50cd9 |
 | provenance/logo-fixture.md | 851 | ce5a702e70c2043f5bbd79ad0f0896488a9388c1c063b674478212b7b3dd9115 |
-| starter/AGENTS.md | 3726 | 17d78d3bf8680d588b05d3c34adfb322ea9e9fe80cb9c28acfab6077d636358e |
+| starter/AGENTS.md | 3760 | 39f7ee342821870502ff2450d1edc4589641cd6dddcd2a9bca281154dc269663 |
 | starter/model-metadata/crown-profile.json | 303 | 40654aa3f15f82f4334501f0ee74325e7495671a559ef7dde15cb30a0ce92ef9 |
 | starter/model-metadata/ring-model-version.json | 14 | 03c3c241ebf5875f9791d52bc558fba2ccc8810368567104e8c634c13d091cef |
 | starter/model-metadata/ring-opening.json | 179 | 0fe2127e9015a73f854f89caabb1beb4e84a231cfbf80a9b95ecd556494ff054 |
@@ -44,11 +44,11 @@ Revision: editorial-2026-10-17-r3. Every regular file except this manifest, whos
 | starter/public/fonts/collegiate.json | 21961 | de32b4523fc3a334fdf406b34aa523a0b5734b7dc4e0ea11c3628054c592ed7c |
 | starter/public/models/championship-ring.glb | 550344 | 87870ccab314d1dfa1197d3def9a3a0aa9302037d2dd4db6c610d3cc8ea063ad |
 | teaching/docs/VERIFICATION.md | 2061 | 8e0abdeab64aeaf1525aec2ccdfb6de030bf6d78a650dd2543402a9c8bdcbe09 |
-| teaching/docs/specs/first-preview.md | 2558 | 927ad286a8972610004b1c29fafe51eb5e099904f00885f07f7f5c6ee0bed52a |
-| teaching/docs/specs/material-customization.md | 2702 | fccdf4e33be7df7e30698dcfb97f21bca4e59255d4851571a62c4778b0ccfd07 |
-| teaching/docs/specs/player-personalization.md | 5122 | a4b25c0e09dacbc798e0ba5dbb2585c21b0513dd9689b3ed938028b76f92d072 |
-| teaching/docs/specs/ring-logo.md | 2833 | 0659e332b019b721243911421da310a93cc2e0c61b74c9348a0eccf35e0e202e |
-| teaching/docs/verification/player-personalization.md | 3813 | ec9553cf8d88294993dc55a653fdb0f7e2aec8fd3721bb971ea6457d10925422 |
+| teaching/docs/specs/first-preview.md | 2530 | 033c2fb470c6313b623fa34e91af79726db0ecf2bbf01272346f0ca550c730f8 |
+| teaching/docs/specs/material-customization.md | 2702 | 4110d958ac7de8c6c30cab1a89b26a8195b699f2d4790189ab66f4abcd8832f9 |
+| teaching/docs/specs/player-personalization.md | 5122 | 8a958afc3e7fd7c4a88e45e5a1e957c69d137806c5300a2e310c33653aa31982 |
+| teaching/docs/specs/ring-logo.md | 2833 | 9fb59977b1d7ba156fdf2babb96cfae4b71378ce7d0a3730d8a1ecfe8161fc8d |
+| teaching/docs/verification/player-personalization.md | 3813 | 373873869157d77553c89efdbe85da68b53d64ba07a9f26138acd9e0aa86ab83 |
 | teaching/examples/player-personalization-progress.md | 621 | 3b2d4ea99f8641662ca9274d182b0c2fa88f3836324b285523312af613dcaae1 |
 | teaching/examples/routing-sample-outputs.md | 1743 | e83a1ad112d8f8154a5540130041e5a75614f168b1fab9e2b011fc9cad3696bc |
 | teaching/figures/README.md | 1088 | e553daca0b3207f16ea8af401cd7c701593dd9b841e1170b00b2c1301aecc922 |
@@ -72,10 +72,10 @@ Revision: editorial-2026-10-17-r3. Every regular file except this manifest, whos
 | teaching/figures/figure-7-1-reference.png | 117922 | 7cbd4b7723040709cb48851d5852708bc3624e109c456fc27648036f683e90ab |
 | teaching/project-instructions/AGENTS.md | 6215 | 81d21eda2a0a583aad3459e19a4bf8a3fbafe4e93cc37a161126908d2371221e |
 | teaching/rules/claude/customization.md | 1020 | 6e07d92d86ac8c32bb643e0c1128848ddf33c6d7a2e36a4b99f86f3f36875989 |
-| teaching/rules/codex/AGENTS.md | 1396 | 82b112fd579e1d07bba3793887441d0d1564cc5fc191e3b7dd21cbfe45988df4 |
-| teaching/skills/README.md | 1178 | dfb3a3f405db9c11a7de3531be9b5a0b81051a1fa9fe124b199e3d6cab9432ae |
+| teaching/rules/codex/AGENTS.md | 1767 | 8a7ee980379bcbb8018cd92de97b074d45a20f30b1a1ddc017cadd9b3017a8a2 |
+| teaching/skills/README.md | 1609 | 3b55ac8512ff28208f938ad898dcca3a7990906aefd23dd08c3343588b5375d2 |
 | teaching/skills/customization-plan-review/SKILL.md | 1804 | 01c07338b2a8c13ee5ae690b527ea71bca9cb37156032ee8f1601f2fdcea5656 |
-| teaching/skills/review-customization-spec/SKILL.md | 1923 | afa68924a934aa8839a82845bdd3d8af6586e75ebd6c7e58e9192e0a33fb493e |
+| teaching/skills/review-customization-spec/SKILL.md | 2479 | 6959890b39ae9342e4e76ac821b5c7d21aeb4ca7f58c10ad49628380a17ca016 |
 | teaching/skills/review-customization-spec/evals/cases/complete-player-spec.md | 4700 | b1975730321a95d4e3890013ebd06ac2079f9713dbc6408f538a6c572b6f2264 |
 | teaching/skills/review-customization-spec/evals/cases/conflicting-number-contract.md | 571 | 7bad618639207bf69ac47b3d770a78d78b6ce03ac5f83646eae877d9cafce126 |
 | teaching/skills/review-customization-spec/evals/cases/missing-name-limit.md | 786 | 135b3e1b563a8fb2eac5d6bb39e5101ef0b7ae49f5c3f3ad08fcce580148639f |
@@ -86,10 +86,10 @@ Revision: editorial-2026-10-17-r3. Every regular file except this manifest, whos
 | teaching/tasks/00-preview.md | 2685 | e50b77f63214bb01a6b29d578a3219ffc94f916234f7993e7bf4e8138187c1d3 |
 | teaching/tasks/01-state.md | 2379 | e99524c6d4c01c5e9f09b07b7ef721c19c145ddebd56fb055ffda4bbbbe31c2d |
 | teaching/tasks/02-controls.md | 2121 | 9f5b39f5996d873672cb75749ce2962f63d5590d5a20f6f2c1d5682fce2b95b6 |
-| teaching/tasks/03-inscriptions.md | 2313 | 3a8c54e636aa36090201ca5d4773c4670795959a04ea22e3bfcd1297edc28309 |
+| teaching/tasks/03-inscriptions.md | 3097 | 0e09f2ae0bd5d7a0ada5a867d73ad3522292a046bdec26d70ac9b157ebdf2a32 |
 | teaching/tasks/04-logo.md | 2586 | a047fcedcf09b5487c5b0c677d496390936d70362dd6297929d6b8cb58c3ae76 |
 | teaching/tasks/05-materials.md | 2305 | 59721c4ebe2ee490e91137f1a2e48bfeb8c9884ec81cd2710505c44d3fbf3af3 |
-| teaching/tasks/06-handoff.md | 2779 | 68d44b87186eedf6e9315b3aa23a6e2a3f4943b1cba6a7aa1d106325d219e705 |
+| teaching/tasks/06-handoff.md | 3131 | 53756428eb4065bfbce32fb5c7f6691ba4795359a670e26f7dd1bcd408f8eba3 |
 | teaching/tasks/README.md | 1124 | becaf204433cd2cc17f02da3789cfd5baa3695be274b7b9f3f4374f5068103af |
 | teaching/tasks/SHARED-STOP-CONDITIONS.md | 460 | 64fec725c2e538d687f84db2faa0bcad87f1d4fb2ef0b1ec53e588f37eb4283e |
 | teaching/templates/authority-map.md | 1590 | 03de24a518bd8adfdff7059c8030c71deba14785f8389d3f8e0c140fd06916ae |
@@ -103,7 +103,7 @@ Revision: editorial-2026-10-17-r3. Every regular file except this manifest, whos
 | teaching/templates/first-ticket.md | 1823 | c901eb17256f373ca2f58b15f9a45bd41ed952c47a54bd0f1445ff5c7e606f6b |
 | teaching/templates/integration-contract.md | 1149 | 4db637be4757d291ead10ed41096544fe277021318aef6907b3c7f406a7e6125 |
 | teaching/templates/mascot-briefing.md | 1801 | b10882dc8ce4caaa1ae69cd17982ce5f7430d04ca9ee695bbdcf705112e029e8 |
-| teaching/templates/plan-review.md | 1115 | fdbda55712f7b241ba68dd5f31d1961b12b4244e5cd950231e1b49af03d6b3a1 |
+| teaching/templates/plan-review.md | 1182 | 2d866c531a99cdcbece718fe16d67d84ab42ef6f035e9f3a27b9adaa4c7d8285 |
 | teaching/templates/practice-rep-success.md | 1252 | ae40f7c94fff4c6bc2e8b5ec3e572e3192e82c6053a463e698b51ca8a9c643d8 |
 | teaching/templates/task-contract.md | 761 | 1b75891858661c2debb970a0780d42c0fd7c791348e8d978472e24a902160475 |
 | validation/ASSET-VALIDATION.md | 1085 | f3bae4b14c65c0fbafb695e1b3500994b33bee55a40e84663fcfed3ec026c916 |

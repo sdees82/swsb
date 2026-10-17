@@ -14,7 +14,7 @@ docs/specs/{first-preview.md, player-personalization.md, ring-logo.md, material-
 
 ## Exact request
 
-Run npm run verify for the current revision and follow the verification recipe within the local authority map. Record every command and pass/fail/not-run outcome. Exercise the five capstone interactions: preview/load failure recovery; Player values/fit/clear; area switching/camera/Reset; logo failures/recovery/races/resize; four independent materials with text/logo retained. If you cannot operate the browser, hand the exact interactions to me and keep observations pending. Review the diff against the specs and return docs/evidence/final/completion.md and updated progress/evidence matrix. List required blockers separately from optional follow-ups. Do not commit, push, deploy or mark external work complete.
+Run npm run verify for the current revision and follow the verification recipe within the local authority map. Record every command and pass/fail/not-run outcome. Perform five direct observation groups: preview/load recovery; Player values/fit/clear; area switching/camera/Reset; valid, unsupported and corrupt logos with recovery/removal/placement; independent materials with text/logo retained. Link deterministic LG-01–05 evidence separately for the exact 5 MiB boundary, resize dimensions, A→B, A→Remove, A→Reset, rejection and unmount cancellation. Ordinary browser interaction does not establish those results. If you cannot operate the browser, hand the exact interactions to me and keep observations pending. Review the diff against the specs and return docs/evidence/final/completion.md and updated progress/evidence matrix. List required blockers separately from optional follow-ups. Do not commit, push, deploy or mark external work complete.
 
 ## Expected result
 
@@ -22,7 +22,7 @@ Only evidence/report/progress Markdown unless a separately accepted correction t
 
 ## Checks to run
 
-npm run verify plus the five direct interactions and environment-specific keyboard/accessibility checks. Record current Git revision and dirty state; never invent a hash or passing run.
+npm run verify, the five direct observation groups and required local keyboard/focus/label checks. Keep deterministic logo boundary, resize and asynchronous-ordering results distinct from visible observations. Record current Git revision and dirty state; never invent a hash or passing run.
 
 ## What to inspect yourself
 

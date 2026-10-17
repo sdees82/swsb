@@ -3,7 +3,7 @@
 The reader authors or approves this Markdown contract, directs the agent and reviews the returned evidence. The agent creates or edits the application implementation, configuration and tests. Technical paths below name expected agent outputs or inspection points, not files the reader must hand-code. Use the milestone map to distinguish existing files from outputs still to be produced.
 
 
-Contract version: editorial-2026-10-17-r3. The choices below are the walkthrough contract.
+Contract version: editorial-2026-10-17-r4. The choices below are the walkthrough contract.
 
 ## Outcome and scope
 On Colors, change Ring metal, Lettering metal, Top stones (pavé and halo), and Side stones independently and inspect the matching preview region. Keep text and artwork intact. No pricing, payment, new materials library or new asset authoring is in scope.

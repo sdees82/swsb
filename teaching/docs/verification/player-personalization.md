@@ -1,6 +1,6 @@
 # Verify player personalization
 
-Recipe version: editorial-2026-10-17-r3, prepared 2026-10-17. Authority: Chapter 4's player-personalization spec. This is a reusable procedure; record each run separately using the completion-report template. It does not report a completed feature in the reader's project.
+Recipe version: editorial-2026-10-17-r4, prepared 2026-10-17. Authority: Chapter 4's player-personalization spec. This is a reusable procedure; record each run separately using the completion-report template. It does not report a completed feature in the reader's project.
 
 ## Setup
 
