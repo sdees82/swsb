@@ -1,0 +1,13 @@
+{
+  "seamY": 1.065,
+  "floorY": 0.905,
+  "cavityX": 1.19,
+  "cavityZ": 0.99,
+  "power": 2.4,
+  "openPosition": [
+    2.65,
+    1.46,
+    0
+  ],
+  "openAngle": 3.141592653589793
+}
