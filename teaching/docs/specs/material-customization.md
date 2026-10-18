@@ -3,7 +3,7 @@
 The reader authors or approves this Markdown contract, directs the agent and reviews the returned evidence. The agent creates or edits the application implementation, configuration and tests. Technical paths below name expected agent outputs or inspection points, not files the reader must hand-code. Use the milestone map to distinguish existing files from outputs still to be produced.
 
 
-Contract version: editorial-2026-10-17-r5. The choices below are the walkthrough contract.
+Contract version: editorial-2026-10-17-r6. The choices below are the walkthrough contract.
 
 ## Outcome and scope
 On Colors, change Ring metal, Lettering metal, Top stones (pavé and halo), and Side stones independently and inspect the matching preview region. Keep text and artwork intact. No pricing, payment, new materials library or new asset authoring is in scope.
@@ -22,7 +22,7 @@ On Colors, change Ring metal, Lettering metal, Top stones (pavé and halo), and 
 - MT-05: Controls have fieldset/legend context, accessible labels, selected state and keyboard reachability. Record direct interaction and remaining assistive-technology checks.
 
 ## References and verification
-Inspect components/ui/FinishPicker.tsx, StonePicker.tsx, ControlPanel.tsx; lib/store.ts; lib/constants.ts; lib/materials.ts; lib/zoneMaterials.ts; lib/rings/classic.ts; components/canvas/Ring.tsx and BrilliantStones.tsx. Use __tests__/customization.test.ts and controls.test.tsx where applicable, then inspect the actual Colors scenario in the browser. A store assertion does not prove that the correct preview region changed. See docs/verification/player-personalization.md for the related checks.
+Inspect components/ui/FinishPicker.tsx, StonePicker.tsx, ControlPanel.tsx; lib/store.ts; lib/constants.ts; lib/materials.ts; lib/zoneMaterials.ts; lib/rings/classic.ts; components/canvas/Ring.tsx and BrilliantStones.tsx. Use __tests__/customization.test.ts and controls.test.tsx where applicable, then inspect the actual Colors scenario in the browser. A store assertion does not prove that the correct preview region changed. Chapter 7 later copies the related reusable recipe to docs/verification/player-personalization.md. During Loop 5, use this contract and ../swsb/teaching/tasks/05-materials.md.
 
 ## Decisions outside scope
 A new finish/stone or changed visual contract requires a specific decision and revised criteria.

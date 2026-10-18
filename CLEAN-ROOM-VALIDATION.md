@@ -1,4 +1,4 @@
-# Clean-room validation: base run at r1, editorial follow-ups through r5
+# Clean-room validation: base run at r1, editorial follow-ups through r6
 
 An agent constructed a new application from the companion's Markdown contracts and assets in a separate scratch project. No application implementation was copied from the mature Ring Builder project. The companion itself still contains only Markdown and assets. This is one local validation, not a claim about every supported computer or harness.
 
@@ -35,3 +35,7 @@ The r4 changes clarify explicit-path procedure use, pre-implementation spec revi
 ## Copy-path and milestone follow-up — October 17, 2026 (r5)
 
 The r5 Markdown corrections allow read-only file inspection in the briefing authority row, make copied specification and verification references explicit from the working-project root, and keep the sample progress handoff at Loop 2. The earlier application runtime checks were not rerun for these documentation changes. All 30 assets remain byte-identical to r4. Independent reader, physical proof, physical-device and screen-reader work remains open.
+
+## Copied briefing and recipe timing — October 18, 2026 UTC (r6)
+
+The r6 Markdown corrections resolve companion and working-project paths in the copied starter briefing and first-preview specification, keep Chapter 4 plan-review and Loop 5 material references usable before Chapter 7 copies the working recipe, add the existing scoped-guidance evidence path to its index, and align narrow-viewport wording. These changes do not alter the application contracts or assets. No new application runtime run was performed. Independent reader, physical proof, physical-device and screen-reader checks remain open.

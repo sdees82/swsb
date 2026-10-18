@@ -1,6 +1,6 @@
 # Companion revision
 
-Revision: editorial-2026-10-17-r5
+Revision: editorial-2026-10-17-r6
 Book: Stop Watching. Start Building. — review-loop contract corrections, October 17, 2026
 Companion: https://github.com/sdees82/swsb
 

@@ -1,6 +1,6 @@
 # Personalize the ring's player shoulder
 
-Contract version: editorial-2026-10-17-r5. The reader maintains this Markdown. The agent creates all source, configuration and tests. Paths are expected outputs and inspection points.
+Contract version: editorial-2026-10-17-r6. The reader maintains this Markdown. The agent creates all source, configuration and tests. Paths are expected outputs and inspection points.
 
 ## Objective and outcome
 Let someone inspect their Player name, Number and Position on the ring's right shoulder. Preserve 07 as inscription text through input, state and rendering.

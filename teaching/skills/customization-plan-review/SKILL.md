@@ -34,4 +34,4 @@ Do not mark a plan ready with unresolved blockers.
 The runtime controls model selection and tools.
 
 ## Project checks
-Use npm test -- --runTestsByPath __tests__/customization.test.ts for text-policy evidence. Use docs/verification/player-personalization.md for visible criteria. During plan review, identify these checks; do not claim to have run them.
+Use npm test -- --runTestsByPath __tests__/customization.test.ts for text-policy evidence. For visible criteria during Chapter 4 plan review, use the accepted feature spec and, when useful, read the companion recipe at ../swsb/teaching/docs/verification/player-personalization.md. Chapter 7 later copies that recipe to docs/verification/player-personalization.md. Identify the planned checks; do not claim to have run them.

@@ -1,6 +1,6 @@
 # Milestones and responsibilities
 
-Revision: editorial-2026-10-17-r5. Read BEFORE-YOU-BEGIN.md, then follow the complete tasks below. The reader maintains Markdown and accepts each result. The agent creates all application source, configuration, package files and tests. No implementation checkpoint is supplied.
+Revision: editorial-2026-10-17-r6. Read BEFORE-YOU-BEGIN.md, then follow the complete tasks below. The reader maintains Markdown and accepts each result. The agent creates all application source, configuration, package files and tests. No implementation checkpoint is supplied.
 
 | Stage | Existing state | Task and next gate |
 | --- | --- | --- |

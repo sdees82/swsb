@@ -12,7 +12,7 @@ Inscriptions remain open for Loop 3.
 
 ## Still required
 Position, empty and maximum-length inscriptions.
-Camera focus, keyboard and mobile-width inspection.
+Camera focus, keyboard and narrow-viewport inspection.
 Logo upload has a separate feature spec.
 
 ## Next action

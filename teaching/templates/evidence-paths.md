@@ -11,6 +11,7 @@ These files are created from your actual run. They are not supplied passing repo
 | Normalization/state | docs/evidence/player/01-state.md |
 | Controls/camera | docs/evidence/player/02-controls.md |
 | Inscriptions/fit | docs/evidence/player/03-inscriptions.md |
+| Scoped guidance discovery | docs/evidence/player/scoped-guidance.md |
 | Top logo | docs/evidence/logo/01-top-logo.md |
 | Independent materials | docs/evidence/materials/01-independent-materials.md |
 | Routing comparison | docs/evidence/routing/comparison.md |
